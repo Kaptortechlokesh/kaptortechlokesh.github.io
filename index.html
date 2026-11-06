@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111514">
+  <meta name="description" content="KAPTOR TECH builds hardware-accelerated post-quantum cryptographic solutions for mission-critical defence, aerospace and deep-tech systems. It also welcomes co-development applications for new mission hardware.">
+  <title>KAPTOR TECH — Post-Quantum Hardware for Mission-Critical Systems</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="KAPTOR TECH home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span>KAPTOR<span class="brand-light">TECH</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation" data-menu-toggle>
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" data-nav>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#algorithms">PQC</a>
+      <a href="#domains">Mission domains</a>
+      <a href="co-development.html" class="nav-partner">Co-development <span aria-hidden="true">↗</span></a>
+    </nav>
+    <a class="header-cta" href="co-development.html#application">Start a conversation <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero dark-section">
+      <div class="hero-gridline" aria-hidden="true"></div>
+      <div class="hero-inner shell">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow-light"><span class="eyebrow-rule"></span> Defence systems / Aerospace / Deep technology</p>
+          <h1>Cryptographic resilience, <em>engineered into the mission.</em></h1>
+          <p class="hero-lede">KAPTOR TECH builds hardware-accelerated post-quantum cryptographic solutions for mission-critical systems — designed around the realities of embedded compute, communication links and long-life platforms.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#capabilities">Explore our engineering <span aria-hidden="true">↓</span></a>
+            <a class="text-link text-link-light" href="co-development.html">Co-develop a product <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-footnote"><span class="tiny-square"></span> Hardware-first security for systems that cannot be treated like ordinary IT.</div>
+        </div>
+
+        <div class="hero-visual" aria-label="Conceptual block diagram of a mission computer connected through a PQC hardware module to a communications link">
+          <div class="visual-topline"><span>FUNCTIONAL ARCHITECTURE</span><span>REF. KT–01</span></div>
+          <svg class="architecture-art" viewBox="0 0 650 480" role="img" aria-labelledby="hero-svg-title hero-svg-desc">
+            <title id="hero-svg-title">Mission link protected by a cryptographic hardware module</title>
+            <desc id="hero-svg-desc">A mission host connects to a separate cryptographic hardware block, then to a radio or optical communications interface.</desc>
+            <defs>
+              <linearGradient id="boardFill" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#28322f"/><stop offset="1" stop-color="#151c1a"/></linearGradient>
+              <linearGradient id="chipFill" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#485650"/><stop offset="1" stop-color="#202a26"/></linearGradient>
+              <pattern id="microGrid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#aab5ac" stroke-opacity=".08" stroke-width=".7"/></pattern>
+            </defs>
+            <rect x="22" y="20" width="606" height="420" rx="4" fill="url(#microGrid)" stroke="#8d9a91" stroke-opacity=".2"/>
+            <path d="M68 103H238V160H310M68 330H188V272H310M430 215H520V148H580M430 250H510V332H580" fill="none" stroke="#a7b5a9" stroke-opacity=".48" stroke-width="1.5"/>
+            <path d="M68 103H238V160H310M68 330H188V272H310M430 215H520V148H580M430 250H510V332H580" fill="none" stroke="#d5dfd5" stroke-opacity=".68" stroke-width="1" stroke-dasharray="2 7"/>
+            <g fill="#cbd5cc"><circle cx="68" cy="103" r="3"/><circle cx="68" cy="330" r="3"/><circle cx="580" cy="148" r="3"/><circle cx="580" cy="332" r="3"/></g>
+            <g transform="translate(48 70)">
+              <rect width="150" height="290" rx="3" fill="#1b2421" stroke="#8d9a91" stroke-opacity=".55"/>
+              <rect x="13" y="15" width="124" height="24" fill="#28332e" stroke="#8d9a91" stroke-opacity=".4"/>
+              <text x="22" y="31" class="svg-kicker">01 / HOST</text>
+              <rect x="18" y="69" width="114" height="68" fill="#27322e" stroke="#aeb9af" stroke-opacity=".4"/>
+              <rect x="31" y="82" width="88" height="42" fill="#1b211f" stroke="#8d9a91" stroke-opacity=".38"/>
+              <path d="M41 95h68M41 104h48M41 113h58" stroke="#aeb9af" stroke-opacity=".45"/>
+              <text x="18" y="169" class="svg-main">Mission computer</text>
+              <text x="18" y="188" class="svg-sub">Avionics / edge compute</text>
+              <path d="M18 211H132M18 226H112M18 241H126" stroke="#819087" stroke-opacity=".42"/>
+              <text x="18" y="270" class="svg-sub">Existing host boundary</text>
+            </g>
+            <g transform="translate(310 133)">
+              <rect width="120" height="178" rx="3" fill="url(#boardFill)" stroke="#d7dfd5" stroke-opacity=".78" stroke-width="1.2"/>
+              <rect x="10" y="10" width="100" height="22" fill="#39463f"/>
+              <text x="18" y="25" class="svg-kicker">02 / PQC</text>
+              <rect x="20" y="52" width="80" height="66" rx="2" fill="url(#chipFill)" stroke="#c7d1c8" stroke-opacity=".78"/>
+              <path d="M28 45v-8m12 8v-8m12 8v-8m12 8v-8m12 8v-8m12 8v-8m12 8v-8M28 125v8m12-8v8m12-8v8m12-8v8m12-8v8m12-8v8m12-8v8" stroke="#d3ddd3" stroke-opacity=".7"/>
+              <path d="M31 65h58M31 76h38M31 87h48M31 98h32" stroke="#c5d2c7" stroke-opacity=".6"/>
+              <text x="16" y="145" class="svg-main">Crypto hardware</text>
+              <text x="16" y="162" class="svg-sub">PQC acceleration</text>
+            </g>
+            <g transform="translate(480 70)">
+              <rect width="126" height="290" rx="3" fill="#1b2421" stroke="#8d9a91" stroke-opacity=".55"/>
+              <rect x="13" y="15" width="100" height="24" fill="#28332e" stroke="#8d9a91" stroke-opacity=".4"/>
+              <text x="22" y="31" class="svg-kicker">03 / LINK</text>
+              <circle cx="63" cy="104" r="35" fill="none" stroke="#cbd5cc" stroke-opacity=".55"/>
+              <circle cx="63" cy="104" r="23" fill="none" stroke="#cbd5cc" stroke-opacity=".4"/>
+              <circle cx="63" cy="104" r="5" fill="#d6dfd6"/>
+              <path d="M63 69v70M28 104h70M39 80l48 48M87 80l-48 48" stroke="#cbd5cc" stroke-opacity=".42"/>
+              <text x="18" y="169" class="svg-main">Transceiver</text>
+              <text x="18" y="188" class="svg-sub">RF / optical / wired</text>
+              <path d="M18 211H108M18 226H92M18 241H110" stroke="#819087" stroke-opacity=".42"/>
+              <text x="18" y="270" class="svg-sub">Mission data link</text>
+            </g>
+            <text x="26" y="30" class="svg-coord">KAPTOR TECH / SYSTEMS ENGINEERING</text>
+            <text x="482" y="422" class="svg-coord" text-anchor="end">ILLUSTRATIVE — NOT A PRODUCT RENDER</text>
+          </svg>
+          <div class="visual-caption"><span>Host system</span><span class="caption-line"></span><span>Cryptographic hardware</span><span class="caption-line"></span><span>Communications link</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom shell"><span>01 — POST-QUANTUM HARDWARE</span><span>DEFENCE · AEROSPACE · DEEP TECH</span><a href="#capabilities">Scroll to explore <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="intro-section section-pad" id="capabilities">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow"><span class="eyebrow-rule"></span> KAPTOR / ENGINEERING FOCUS</p><h2>Security at the <em>hardware boundary.</em></h2></div>
+          <p class="section-intro">Mission systems carry commands, telemetry and operational data across interfaces that were not always designed for a post-quantum world. KAPTOR focuses on bringing cryptographic capability closer to the platform and the link.</p>
+        </div>
+        <div class="capability-grid">
+          <article class="capability-card">
+            <span class="card-index">01</span><div class="card-icon icon-chip" aria-hidden="true"><span></span></div>
+            <h3>Hardware-accelerated PQC</h3><p>Dedicated hardware architectures for post-quantum cryptographic operations, with implementation choices shaped by the host platform, message flow and system constraints.</p>
+            <a href="#algorithms" class="card-link">Algorithm portfolio <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="capability-card">
+            <span class="card-index">02</span><div class="card-icon icon-link" aria-hidden="true"><span></span><span></span></div>
+            <h3>Mission-link integration</h3><p>Security designed around the interfaces between mission computers, embedded controllers and RF, optical or wired communications systems.</p>
+            <a href="#architecture" class="card-link">Explore the architecture <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="capability-card">
+            <span class="card-index">03</span><div class="card-icon icon-module" aria-hidden="true"><span></span><span></span><span></span></div>
+            <h3>Embedded system engineering</h3><p>Hardware and firmware co-design for constrained environments, including interfaces, key lifecycle, fault handling and integration planning.</p>
+            <a href="co-development.html" class="card-link">Work with KAPTOR <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="architecture-section section-pad dark-section" id="architecture">
+      <div class="shell">
+        <div class="section-heading split-heading section-heading-light">
+          <div><p class="eyebrow eyebrow-light"><span class="eyebrow-rule"></span> SYSTEM VIEW / 01—04</p><h2>Designed around <em>the integration point.</em></h2></div>
+          <p class="section-intro">A representative architecture for discussion. The exact topology, interfaces and trust boundaries are defined against each platform’s requirements; this diagram is not a claim of a qualified or deployed configuration.</p>
+        </div>
+        <div class="architecture-explorer">
+          <div class="architecture-steps" role="tablist" aria-label="Architecture stages">
+            <button class="architecture-step is-active" type="button" role="tab" aria-selected="true" aria-controls="architecture-detail" data-arch-step="0"><span>01</span><strong>Host platform</strong><small>Mission compute</small></button>
+            <button class="architecture-step" type="button" role="tab" aria-selected="false" aria-controls="architecture-detail" data-arch-step="1"><span>02</span><strong>Crypto subsystem</strong><small>PQC processing</small></button>
+            <button class="architecture-step" type="button" role="tab" aria-selected="false" aria-controls="architecture-detail" data-arch-step="2"><span>03</span><strong>Interface layer</strong><small>Bus and protocol</small></button>
+            <button class="architecture-step" type="button" role="tab" aria-selected="false" aria-controls="architecture-detail" data-arch-step="3"><span>04</span><strong>Mission link</strong><small>Radio / optical / wired</small></button>
+          </div>
+          <div class="architecture-detail" id="architecture-detail" role="tabpanel" tabindex="0" aria-live="polite">
+            <div class="detail-topline"><span id="arch-kicker">01 / HOST PLATFORM</span><span class="detail-status">SYSTEM-DEPENDENT</span></div>
+            <h3 id="arch-title">The existing mission system</h3>
+            <p id="arch-copy">The host platform produces or consumes commands, telemetry and mission data. Its processor, operating environment and existing interfaces define the starting point for an integration.</p>
+            <div class="detail-meta"><div><span>ENGINEERING QUESTION</span><strong id="arch-question">What must remain unchanged?</strong></div><div><span>DEFINED WITH</span><strong id="arch-owner">Platform owner / system integrator</strong></div></div>
+          </div>
+          <div class="architecture-note"><span class="note-mark">i</span><p>Illustrative integration path. No host compatibility, bus support, certification or system performance is implied without platform-specific engineering and verification.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pqc-section section-pad" id="algorithms">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div><p class="eyebrow"><span class="eyebrow-rule"></span> POST-QUANTUM CRYPTOGRAPHY</p><h2>Standards matter. <em>So does implementation.</em></h2></div>
+          <p class="section-intro">KAPTOR’s cryptographic engineering focus includes hardware acceleration for post-quantum algorithms. Algorithm selection is only one part of a secure implementation: protocol design, key management, interfaces and validation matter just as much.</p>
+        </div>
+        <div class="algorithm-table" role="list" aria-label="Relevant post-quantum algorithms and NIST status">
+          <article class="algorithm-row" role="listitem"><div class="algorithm-name"><span class="algorithm-no">01</span><h3>ML-DSA</h3></div><div class="algorithm-purpose"><strong>Module-Lattice-Based Digital Signature Algorithm</strong><span>Digital signatures</span></div><div class="algorithm-standard"><span class="standard-tag is-final">Final standard</span><a href="https://csrc.nist.gov/pubs/fips/204/final" target="_blank" rel="noopener">NIST FIPS 204 ↗</a></div></article>
+          <article class="algorithm-row" role="listitem"><div class="algorithm-name"><span class="algorithm-no">02</span><h3>SLH-DSA</h3></div><div class="algorithm-purpose"><strong>Stateless Hash-Based Digital Signature Algorithm</strong><span>Digital signatures</span></div><div class="algorithm-standard"><span class="standard-tag is-final">Final standard</span><a href="https://csrc.nist.gov/pubs/fips/205/final" target="_blank" rel="noopener">NIST FIPS 205 ↗</a></div></article>
+          <article class="algorithm-row" role="listitem"><div class="algorithm-name"><span class="algorithm-no">03</span><h3>FN-DSA</h3></div><div class="algorithm-purpose"><strong>FFT over NTRU-Lattice-Based Digital Signature Algorithm</strong><span>Digital signatures · Falcon lineage</span></div><div class="algorithm-standard"><span class="standard-tag is-development">In development</span><a href="https://csrc.nist.gov/Projects/post-quantum-cryptography" target="_blank" rel="noopener">FIPS 206 track ↗</a></div></article>
+          <article class="algorithm-row" role="listitem"><div class="algorithm-name"><span class="algorithm-no">04</span><h3>ML-KEM</h3></div><div class="algorithm-purpose"><strong>Module-Lattice-Based Key-Encapsulation Mechanism</strong><span>Key establishment</span></div><div class="algorithm-standard"><span class="standard-tag is-final">Final standard</span><a href="https://csrc.nist.gov/pubs/fips/203/final" target="_blank" rel="noopener">NIST FIPS 203 ↗</a></div></article>
+        </div>
+        <div class="standards-footnote"><span class="footnote-symbol">↗</span><p><strong>Standards status checked 6 November 2026.</strong> FIPS 203, 204 and 205 are final NIST standards. FN-DSA/Falcon is still in the NIST standardisation process; it is not represented here as a final FIPS standard. See the <a href="https://csrc.nist.gov/Projects/post-quantum-cryptography/publications" target="_blank" rel="noopener">NIST PQC publications register</a>.</p></div>
+        <p class="small-print">Reference to a NIST standard describes the algorithm standard, not a certification or validation of KAPTOR hardware, firmware or a deployed product. Product-specific conformance and performance require evidence from the relevant implementation and test configuration.</p>
+      </div>
+    </section>
+
+    <section class="domains-section section-pad dark-section" id="domains">
+      <div class="shell">
+        <div class="section-heading split-heading section-heading-light">
+          <div><p class="eyebrow eyebrow-light"><span class="eyebrow-rule"></span> MISSION ENVIRONMENTS</p><h2>For platforms with <em>long service lives.</em></h2></div>
+          <p class="section-intro">The same cryptographic challenge appears across different mission environments, but the engineering constraints are never identical. Integration must account for platform, communications path, environment and lifecycle.</p>
+        </div>
+        <div class="domain-grid">
+          <article class="domain-card"><span class="domain-number">01</span><div class="domain-graphic orbit-graphic" aria-hidden="true"><span class="orbit-core"></span><span class="orbit-ring ring-a"></span><span class="orbit-ring ring-b"></span><span class="orbit-node"></span></div><h3>Space systems</h3><p>Telecommand, telemetry and onboard data paths for spacecraft, payloads and ground segments.</p><span class="domain-interfaces">TT&C / ON-BOARD DATA / GROUND SEGMENT</span></article>
+          <article class="domain-card"><span class="domain-number">02</span><div class="domain-graphic grid-graphic" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><h3>Defence &amp; C4ISR</h3><p>Cryptographic subsystems for command, control, communications and information flows.</p><span class="domain-interfaces">COMMAND LINKS / TACTICAL NETWORKS</span></article>
+          <article class="domain-card"><span class="domain-number">03</span><div class="domain-graphic node-graphic" aria-hidden="true"><span class="node-center"></span><i></i><i></i><i></i><i></i><b></b></div><h3>Unmanned platforms</h3><p>Embedded security considerations for autonomous vehicles, edge controllers and remote links.</p><span class="domain-interfaces">UAV / UGV / AUTONOMOUS EDGE</span></article>
+          <article class="domain-card"><span class="domain-number">04</span><div class="domain-graphic station-graphic" aria-hidden="true"><span></span><i></i><b></b></div><h3>Ground infrastructure</h3><p>Secure gateways and communications equipment supporting distributed mission systems.</p><span class="domain-interfaces">GATEWAYS / RF / OPTICAL</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="codev-banner section-pad" id="co-development">
+      <div class="shell codev-layout">
+        <div class="codev-copy">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> OPEN ENGINEERING / PARTNERSHIPS</p>
+          <h2>Beyond PQC.<br><em>Build the next system with us.</em></h2>
+          <p>KAPTOR TECH is open to co-developing defence, aerospace and deep-tech products with companies that have a clear mission problem, a platform to integrate with or a product concept that needs an engineering partner.</p>
+          <a class="button button-dark" href="co-development.html">Explore co-development <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="codev-list">
+          <div><span>01</span><strong>Secure embedded electronics</strong><span class="list-arrow">↗</span></div>
+          <div><span>02</span><strong>Mission computers &amp; avionics subsystems</strong><span class="list-arrow">↗</span></div>
+          <div><span>03</span><strong>Communications &amp; data-link hardware</strong><span class="list-arrow">↗</span></div>
+          <div><span>04</span><strong>Ruggedised edge and field electronics</strong><span class="list-arrow">↗</span></div>
+          <p class="list-disclaimer">Potential areas for joint scoping — not a catalogue of released products or a statement of existing customer programmes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-strip section-pad dark-section">
+      <div class="shell contact-layout"><div><p class="eyebrow eyebrow-light"><span class="eyebrow-rule"></span> START A TECHNICAL CONVERSATION</p><h2>Bring us the <em>hard problem.</em></h2></div><div class="contact-actions"><a href="mailto:partnerships@kaptortech.in" class="contact-email">partnerships@kaptortech.in <span aria-hidden="true">↗</span></a><a href="tel:+917498986401" class="contact-phone">+91 74989 86401</a><a href="co-development.html#application" class="text-link text-link-light">Submit an application <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-main"><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>KAPTOR<span class="brand-light">TECH</span></span></a><p>Post-quantum cryptographic hardware<br>Defence · Aerospace · Deep technology</p><nav aria-label="Footer"><a href="#capabilities">Capabilities</a><a href="#algorithms">PQC standards</a><a href="co-development.html">Co-development</a><a href="mailto:partnerships@kaptortech.in">Contact</a></nav></div>
+    <div class="shell footer-bottom"><span>© <span data-year></span> KAPTOR TECH</span><span>ENGINEERED FOR MISSION-CRITICAL SYSTEMS</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
